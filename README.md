@@ -19,6 +19,6 @@ Po wklejeniu danych wtyczka automatycznie rozdziela je i wstawia we właściwe p
 
 ## Screenshots
 
-![Screenshot_3](https://github.com/user-attachments/assets/1ff9006d-58ef-429a-9ec8-81a96de3a5af)
-![Screenshot_2](https://github.com/user-attachments/assets/7f256e20-159e-4353-900f-bfb7603013df)
 ![Screenshot_1](https://github.com/user-attachments/assets/57ca69d4-8546-49aa-a136-5fab4df605d9)
+![Screenshot_2](https://github.com/user-attachments/assets/7f256e20-159e-4353-900f-bfb7603013df)
+![Screenshot_3](https://github.com/user-attachments/assets/1ff9006d-58ef-429a-9ec8-81a96de3a5af)
