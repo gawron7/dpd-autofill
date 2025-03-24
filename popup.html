@@ -1,0 +1,98 @@
+<!-- popup.html -->
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DPD AutoFill</title>
+  <script src="popup.js" defer></script>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #ffffff;
+      color: #333;
+      text-align: center;
+      width: 250px;
+    }
+
+    h1 {
+      font-size: 24px;
+      color: #E60012; 
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      background-color: #E60012;
+      color: white;
+      border: none;
+      padding: 10px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+   
+    .btn:hover {
+      background-color: #C2000F;
+    }
+
+    /* Styl checkboxa */
+    .checkbox-container {
+      margin: 10px 0;
+      text-align: left;
+    }
+
+    .checkbox-container label {
+      font-size: 14px;
+      color: #333;
+    }
+
+    /* Tryb ciemny */
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #1e1e1e;
+        color: #ffffff;
+      }
+
+      h1 {
+        color: #dc0032;
+      }
+
+      .btn {
+        background-color: #dc0032;
+        color: #ffffff;
+      }
+
+      .btn:hover {
+        background-color: #e60000;
+      }
+
+      .checkbox-container label {
+        color: #ffffff;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>DPD AutoFill</h1>
+  <button id="pasteData" class="btn">Wklej dane</button>
+  
+  <div class="checkbox-container">
+    <label>
+      <input type="checkbox" id="enableCtrlV"> Wklejanie za pomocą Ctrl + V
+    </label>
+  </div>
+
+  <div class="checkbox-container">
+    <label>
+      <input type="checkbox" id="salesManagementTemplate"> Szablon SALES AND MGMT
+    </label>
+  </div>
+</body>
+</html>

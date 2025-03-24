@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "DPD AutoFill",
+  "version": "1.0",
+  "description": "Automatyczne wypełnianie formularza DPD danymi ze schowka.",
+  "icons": {
+    "128": "icons/dpd_icon.png"
+  },
+  "permissions": [
+    "clipboardRead",
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://online.dpd.com.pl/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
